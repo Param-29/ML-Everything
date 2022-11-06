@@ -66,3 +66,16 @@ Good GITHUB links [https://github.com/DataTalksClub/mlops-zoomcamp]
     - Cloud GPU VMs
 - Docker
 - Kubernetes
+
+
+## Resources
+PFA section-wise various recources which can be used to revisit concepts. 
+
+### Courses 
+
+
+### Videos 
+
+### Blogs 
+
+### Books
