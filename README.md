@@ -1,6 +1,8 @@
 # ML-Everything
 Documenting various learnings of each section of ML with appropriate resources and code snippets to come back too.
 
+Motivation: Building an A-Z reference repro to revisit & reference topics
+
 ## Complete Roadmap
 
 **Basics** 
