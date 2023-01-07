@@ -1,13 +1,34 @@
 # Recommendation Systems
 
+- [Recommendation Systems](#recommendation-systems)
+  - [Prerequisites](#prerequisites)
+  - [Why and What??](#why-and-what)
+  - [Recommendation Systems Overview](#recommendation-systems-overview)
+  - [Candidate Generation](#candidate-generation)
+    - [Similarity Measures](#similarity-measures)
+  - [Content based filtering](#content-based-filtering)
+  - [Collaborative filtering](#collaborative-filtering)
+    - [A Movie Recommendation Example](#a-movie-recommendation-example)
+    - [Matrix Factorization](#matrix-factorization)
+    - [How to find matrix fact: ML](#how-to-find-matrix-fact-ml)
+      - [Objective Function (Error function)](#objective-function-error-function)
+      - [Minimizing the Objective Function](#minimizing-the-objective-function)
+  - [Deep Neural Network Models: For Matrix Fact](#deep-neural-network-models-for-matrix-fact)
+  - [Code snippets](#code-snippets)
+  - [Resources](#resources)
+    - [Courses](#courses)
+    - [Videos](#videos)
+    - [Blogs](#blogs)
+    - [Books](#books)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Prerequisites
 * BASIC ML 
 * Linear Algebra Understanding 
 * Tensorflow and Pandas 
 
 ## Why and What?? 
-
-
 
 Recommendation Systems: ML based suggestion systems which suggest next items. 
 
@@ -31,7 +52,7 @@ Why recommendatoin systems?
 **Terminologies**
 
 * Item: thing you are trying to predicit (y in ML)
-* Query: given data item for which you are trying to predict item. 
+* Query: given data item for which you are trying to predict item. (X in ML)
 
 ## Recommendation Systems Overview
 
@@ -218,6 +239,30 @@ Dis-adv:
 * Hard to include side features for query/item
   *  For movie recommendations, the side features might include country or age.
   *  [Solution] To be handled in re-ranking
+
+## Deep Neural Network Models: For Matrix Fact
+
+![](images/matrix_fact.png)
+This can also be thought as a (wieghted) graph reprensentation 
+
+![](images/graph_like_representation.png)
+
+Then, matrix factorization can be thought of a NN like below;
+
+![](images/matrix_fact_as_nn.png)
+
+## Code snippets 
+
+1. [Recommendation systems: Matrix factorization](Recommendation_Systems_Colab.ipynb)
+   1. Exploring the MovieLens Data (10 minutes)
+   2. Preliminaries (25 minutes)
+   3. Training a matrix factorization model (15 minutes)
+   4. Inspecting the Embeddings (15 minutes)
+   5. Regularization in matrix factorization (15 minutes)
+   6. Softmax model training (30 minutes)
+
+
+
 ## Resources
 
 ### Courses 

@@ -1,7 +1,18 @@
 # ML-Everything
 Documenting various learnings of each section of ML with appropriate resources and code snippets to come back too.
 
-Motivation: Building an A-Z reference repro to revisit & reference topics
+
+- [ML-Everything](#ml-everything)
+  - [Complete Roadmap](#complete-roadmap)
+  - [Useful links:](#useful-links)
+  - [Resources](#resources)
+    - [Courses](#courses)
+    - [Videos](#videos)
+    - [Blogs](#blogs)
+    - [Books](#books)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Complete Roadmap
 
@@ -69,6 +80,11 @@ Good GITHUB links [https://github.com/DataTalksClub/mlops-zoomcamp]
 - Docker
 - Kubernetes
 
+## Useful links:
+
+* [Machine Learning Glossary
+](https://developers.google.com/machine-learning/glossary)
+  * This glossary defines general machine learning terms, plus terms specific to TensorFlow.
 
 ## Resources
 PFA section-wise various recources which can be used to revisit concepts. 
@@ -81,3 +97,4 @@ PFA section-wise various recources which can be used to revisit concepts.
 ### Blogs 
 
 ### Books
+* Added to gitignore to keep it locally;
