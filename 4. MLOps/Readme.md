@@ -163,15 +163,28 @@ Challenges
 
 1. Size & complexity of models
 
+> TBD
+>   ML Zoomcamp; deployment module?
+
 ## Best Practices
 
 ## Resources
 PFA section-wise various recources which can be used to revisit concepts. 
 
+### Tools and libraries 
+
+- Prefect [(documnetation)](https://docs.prefect.io/tutorials/first-steps/)
+  > Prefect is used for adding functionalities to your data-piplines and automating **work-flows**
+
 ### Courses 
 
 - [MLOps-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp#syllabus)
 - [ML-Zoomcamp playlist](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp)
+  - [05-deployment](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp/05-deployment)
+  - [07-bentoml-production](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/07-bentoml-production)
+  - [09-serverless](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/09-serverless)
+  - [10-kubernetes](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/10-kubernetes)
+  - [11-kserve](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/11-kserve)
 
 ### Videos 
 
