@@ -68,6 +68,25 @@ Good GITHUB links [https://github.com/DataTalksClub/mlops-zoomcamp]
 - Building and tuning STOA Models
 
 
+**Data Engineering**
+
+- Basics
+- Data-Ochestration & Workflows 
+    + Prefect, Airflow
+- Data warehouse 
+    + Snowflake, bigquery, AWS redshift 
+- Analytics Enginnering
+    + Transforming data to view it in Business KPI's 
+    + dbt, Dataform 
+    + Note:
+        * Data presentation 
+            - using power BI tools 
+- Batch Processing 
+    + Using Apache Spark
+- Streaming 
+    + Using Apahce Kafka 
+    
+
 
 **Misc**
 
@@ -89,12 +108,12 @@ Good GITHUB links [https://github.com/DataTalksClub/mlops-zoomcamp]
 ## Resources
 PFA section-wise various recources which can be used to revisit concepts. 
 
-### Courses 
+### Courses
 
 
-### Videos 
+### Videos
 
-### Blogs 
+### Blogs
 
 ### Books
 * Added to gitignore to keep it locally;
